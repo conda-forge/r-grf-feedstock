@@ -1,4 +1,4 @@
-{% set version = "1.0.1" %}
+{% set version = "1.1.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,10 +10,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/grf_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/grf/grf_{{ version }}.tar.gz
-  sha256: be02dabda721914d49e10c937b708fb90abbdbea1fa868f38082055e38305954
+  sha256: 0714d5309063ec547bc0696b64d31d6f8ecde82621164ba517f32e158dc8a52e
 
 build:
-  merge_build_host: True  # [win]
+  merge_build_host: true  # [win]
   number: 0
   rpaths:
     - lib/R/lib/
@@ -56,12 +56,11 @@ test:
 about:
   home: https://github.com/grf-labs/grf
   license: GPL-3
-  summary: A pluggable package for forest-based statistical estimation and inference. GRF currently
-    provides methods for non-parametric least-squares regression, quantile regression,
-    and treatment effect estimation (optionally using instrumental variables).
+  summary: A pluggable package for forest-based statistical estimation and inference. GRF currently provides methods for non-parametric least-squares regression,
+    quantile regression, and treatment effect estimation (optionally using instrumental variables).
   license_family: GPL3
   license_file:
-    - '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
 
 extra:
   recipe-maintainers:
