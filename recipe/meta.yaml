@@ -55,7 +55,7 @@ test:
 
 about:
   home: https://github.com/grf-labs/grf
-  license: GPL-3
+  license: GPL-3.0-only
   summary: A pluggable package for forest-based statistical estimation and inference. GRF currently provides methods for non-parametric least-squares regression, quantile regression, and treatment effect estimation (optionally using instrumental variables).
   license_family: GPL3
   license_file:
