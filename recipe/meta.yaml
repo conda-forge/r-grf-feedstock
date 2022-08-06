@@ -1,4 +1,4 @@
-{% set version = "2.1.0" %}
+{% set version = "2.2.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/grf_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/grf/grf_{{ version }}.tar.gz
-  sha256: 02a4fe9c8147768f1345be2f8ca73fca079af5f07ccaa4900f9ec255ca66bb19
+  sha256: 1a211aa59e08e7aba5502088c22c9e4f969ace426e6c929bc16723678dc7f132
 
 build:
   merge_build_host: true  # [win]
