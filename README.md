@@ -1,11 +1,22 @@
+About r-grf-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-grf-feedstock/blob/main/LICENSE.txt)
+
 About r-grf
-===========
+-----------
 
 Home: https://github.com/grf-labs/grf
 
 Package license: GPL-3.0-only
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-grf-feedstock/blob/main/LICENSE.txt)
+Summary: A pluggable package for forest-based statistical estimation and inference. GRF currently provides methods for non-parametric least-squares regression, quantile regression, and treatment effect estimation (optionally using instrumental variables).
+About r-grf
+-----------
+
+Home: https://github.com/grf-labs/grf
+
+Package license: GPL-3.0-only
 
 Summary: A pluggable package for forest-based statistical estimation and inference. GRF currently provides methods for non-parametric least-squares regression, quantile regression, and treatment effect estimation (optionally using instrumental variables).
 
