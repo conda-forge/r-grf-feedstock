@@ -1,4 +1,4 @@
-{% set version = "2.5.0" %}
+{% set version = "2.6.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/grf_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/grf/grf_{{ version }}.tar.gz
-  sha256: 29828dff1a8d2acacf4560daacf179a612407dac224e129f0349d67355c5957d
+  sha256: 826583c4af20307814045d8db02cec715b376a0eee4cbcf4e2d97df055859ac2
 
 build:
   number: 0
